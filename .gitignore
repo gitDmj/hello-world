@@ -1,7 +1,7 @@
 /.settings/  
 /target/  
-  
-  # built application files  
+ */.settiongs/ 
+ # built application files  
   *.apk  
   *.ap_  
     
