@@ -7,7 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>mxin-mybatis</artifactId>
-
+	
 	<dependencies>
 		<!-- 单元测试 -->
 		<dependency>
@@ -71,7 +71,14 @@
 			<artifactId>commons-io</artifactId>
 		</dependency>
 		
+		<!-- 通用Mapper -->
+		
+		<dependency>
+		 	<groupId>com.github.abel533</groupId>
+			<artifactId>mapper</artifactId>	
+		</dependency>
 	</dependencies>
-
-
+	
+	
+	
 </project>

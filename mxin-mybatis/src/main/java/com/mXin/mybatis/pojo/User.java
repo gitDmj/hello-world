@@ -4,7 +4,12 @@ import java.io.Serializable;
 
 public class User implements Serializable {
 
-    private Long id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Long id;
 
     private String username;
 
@@ -13,8 +18,22 @@ public class User implements Serializable {
     private String phone;
 
     private String email;
+    
+    public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
-    public Long getId() {
+	public User(Long id, String username, String password, String phone, String email) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.phone = phone;
+		this.email = email;
+	}
+
+	public Long getId() {
         return id;
     }
 
